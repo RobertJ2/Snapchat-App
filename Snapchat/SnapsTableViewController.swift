@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SnapsTableViewController: UITableViewController {
 
     
     
     @IBAction func logOutTapped(_ sender: Any) {
+        try? Auth.auth().signOut()
         dismiss(animated: true, completion: nil)
     }
     
@@ -28,10 +30,7 @@ class SnapsTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+   
 
     // MARK: - Table view data source
 

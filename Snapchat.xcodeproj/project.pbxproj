@@ -14,6 +14,8 @@
 		295F1FD920D86C7100C32343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295F1FD720D86C7100C32343 /* LaunchScreen.storyboard */; };
 		295F1FE120D86CDD00C32343 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 295F1FE020D86CDD00C32343 /* GoogleService-Info.plist */; };
 		295F1FE320D8783200C32343 /* SnapsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F1FE220D8783200C32343 /* SnapsTableViewController.swift */; };
+		295F1FE520D87A6C00C32343 /* SelectPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F1FE420D87A6C00C32343 /* SelectPictureViewController.swift */; };
+		295F1FE720D897DB00C32343 /* SelectRecipientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F1FE620D897DB00C32343 /* SelectRecipientTableViewController.swift */; };
 		3516612823D0E751DCB41DFB /* Pods_Snapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3018073C084B5A1889BA06F5 /* Pods_Snapchat.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		295F1FDA20D86C7100C32343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295F1FE020D86CDD00C32343 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		295F1FE220D8783200C32343 /* SnapsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsTableViewController.swift; sourceTree = "<group>"; };
+		295F1FE420D87A6C00C32343 /* SelectPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPictureViewController.swift; sourceTree = "<group>"; };
+		295F1FE620D897DB00C32343 /* SelectRecipientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRecipientTableViewController.swift; sourceTree = "<group>"; };
 		3018073C084B5A1889BA06F5 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC625FBA42EB2350D3D589B /* Pods-Snapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +72,8 @@
 				295F1FCE20D86C6400C32343 /* AppDelegate.swift */,
 				295F1FD020D86C6400C32343 /* LoginViewController.swift */,
 				295F1FD220D86C6400C32343 /* Main.storyboard */,
+				295F1FE420D87A6C00C32343 /* SelectPictureViewController.swift */,
+				295F1FE620D897DB00C32343 /* SelectRecipientTableViewController.swift */,
 				295F1FE220D8783200C32343 /* SnapsTableViewController.swift */,
 				295F1FD520D86C7100C32343 /* Assets.xcassets */,
 				295F1FD720D86C7100C32343 /* LaunchScreen.storyboard */,
@@ -173,12 +179,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				295F1FE320D8783200C32343 /* SnapsTableViewController.swift in Sources */,
+				295F1FE520D87A6C00C32343 /* SelectPictureViewController.swift in Sources */,
+				295F1FE720D897DB00C32343 /* SelectRecipientTableViewController.swift in Sources */,
 				295F1FD120D86C6400C32343 /* LoginViewController.swift in Sources */,
 				295F1FCF20D86C6400C32343 /* AppDelegate.swift in Sources */,
 			);
